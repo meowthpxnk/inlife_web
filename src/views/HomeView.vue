@@ -1,18 +1,19 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="html">
+  <home-component/>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HomeComponent from "@/components/home/HomeComponent.vue"
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+  async mounted(){
+    // window.scrollTo({top: 520})
+  },
+  components:{
+    HomeComponent,
   }
 }
 </script>
+
+<style lang="css" scoped>
+</style>
