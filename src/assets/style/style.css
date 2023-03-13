@@ -785,8 +785,14 @@ header .nav-bar{
     /* align-items: end; */
     justify-content: flex-end;
 }
-.hamburger-menu-container{
+.hamburger-menu-container .logo-sact{
+  display: none;
   /* background-color: ; */
+}
+.hamburger-menu-container .social-activities{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
 }
 .nav-bar li{
   text-align: center;
@@ -818,6 +824,15 @@ header .nav-bar{
   flex-grow: 1;
 }
 
+header .social-activities{
+  display: none;
+}
+header .logo-sact img{
+  height: 90px;
+  display: block;
+}
+
+
 @media (max-width: 425px){
   header nav{
     display: none;
@@ -840,7 +855,6 @@ header .nav-bar{
   header .header-content .logo{
     display: none;
   }
-  
 }
 @media screen and (min-width: 425px){
   
@@ -872,6 +886,14 @@ header .nav-bar{
 
 @media screen and (min-width: 768px) {
   header .hamburger-button{
+    display: none;
+  }
+
+  header .social-activities{
+    display: flex;
+  }
+
+  header .logo-sact img{
     display: none;
   }
   

@@ -75,6 +75,9 @@
                 </div>
                 <navigation-panel />
                 <social-networks />
+                <div class="logo-sact">
+                    <img src="@/assets/imgs/main-logo.png" alt="">
+                </div>
             </div>
         </div>
     </header>
@@ -259,4 +262,5 @@ export default {
     border-radius: 2px;
     width: 0%;
     transition: all .5s;
-}</style>
+}
+</style>
